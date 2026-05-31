@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — SkillCampus Pro</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="../assets/js/config.js"></script>
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/app.js"></script>
+</head>
+<body data-page="auth">
+  <div class="aurora"></div>
+  <main class="auth-shell">
+    <a class="brand center-brand" href="../index.html"><span class="brand-mark">SC</span><span>SkillCampus Pro</span></a>
+    <section class="auth-card glass-card">
+      <div class="auth-tabs">
+        <button class="tab-btn active" data-auth-tab="login" data-i18n="auth.login">Login</button>
+        <button class="tab-btn" data-auth-tab="signup" data-i18n="auth.signup">Sign up</button>
+      </div>
+      <form id="authForm" class="stack-form">
+        <label><span data-i18n="auth.name">Name</span><input id="nameInput" type="text" placeholder="Aurilumix" /></label>
+        <label><span>Email</span><input id="emailInput" type="email" placeholder="you@email.com" required /></label>
+        <label><span data-i18n="auth.password">Password</span><input id="passwordInput" type="password" placeholder="••••••••" required minlength="6" /></label>
+        <button class="primary-btn full" type="submit" data-i18n="auth.continue">Continue</button>
+        <p id="authStatus" class="status-text"></p>
+      </form>
+      <div class="demo-note" data-i18n="auth.note">No Supabase keys yet? You can still open the dashboard in demo mode.</div>
+      <a class="secondary-btn full" href="dashboard.html" data-i18n="landing.demo">View demo dashboard</a>
+    </section>
+  </main>
+</body>
+</html>

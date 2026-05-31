@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillCampus Pro — Premium Learning Community</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body data-page="landing">
+  <div class="aurora"></div>
+  <header class="topbar landing-bar">
+    <a class="brand" href="index.html"><span class="brand-mark">SC</span><span>SkillCampus Pro</span></a>
+    <nav class="top-actions">
+      <button class="ghost-btn lang-toggle" data-lang-toggle>EL</button>
+      <a class="ghost-btn" href="pages/auth.html" data-i18n="nav.login">Login</a>
+      <a class="primary-btn" href="pages/auth.html?mode=signup" data-i18n="landing.cta">Start building</a>
+    </nav>
+  </header>
+
+  <main class="landing-shell">
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="landing.eyebrow">Premium campus platform</p>
+        <h1 data-i18n="landing.title">Build skills, ship proof, grow with a serious community.</h1>
+        <p class="hero-text" data-i18n="landing.subtitle">An original learning and community platform for creators, builders, and ambitious operators. Lessons, progress, posts, DMs, resources and admin tools — all in one dark premium product.</p>
+        <div class="hero-actions">
+          <a class="primary-btn big" href="pages/auth.html?mode=signup" data-i18n="landing.cta">Start building</a>
+          <a class="secondary-btn big" href="pages/dashboard.html" data-i18n="landing.demo">View demo dashboard</a>
+        </div>
+        <div class="trust-row">
+          <span data-i18n="landing.trust1">Supabase ready</span>
+          <span data-i18n="landing.trust2">Bilingual</span>
+          <span data-i18n="landing.trust3">Mobile-first</span>
+        </div>
+      </div>
+      <div class="hero-panel glass-card">
+        <div class="panel-header"><span></span><span></span><span></span></div>
+        <div class="mini-dashboard">
+          <div class="metric-card"><small data-i18n="dashboard.progress">Progress</small><strong>68%</strong></div>
+          <div class="metric-card"><small data-i18n="dashboard.rank">Rank</small><strong>#12</strong></div>
+          <div class="metric-card"><small data-i18n="dashboard.streak">Streak</small><strong>9d</strong></div>
+        </div>
+        <div class="lesson-preview">
+          <div class="lesson-line active"></div><div class="lesson-line"></div><div class="lesson-line short"></div>
+        </div>
+        <div class="community-preview">
+          <div class="avatar">A</div><div><strong>Win posted</strong><p>Closed first client from outreach sprint.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature-card"><h3 data-i18n="landing.feature1.title">Campuses</h3><p data-i18n="landing.feature1.text">Organize your offer into focused skill paths.</p></article>
+      <article class="feature-card"><h3 data-i18n="landing.feature2.title">Community</h3><p data-i18n="landing.feature2.text">Posts, comments, likes, wins and accountability.</p></article>
+      <article class="feature-card"><h3 data-i18n="landing.feature3.title">Monetizable</h3><p data-i18n="landing.feature3.text">Premium locks, resources, admin content and subscriptions.</p></article>
+    </section>
+  </main>
+</body>
+</html>
