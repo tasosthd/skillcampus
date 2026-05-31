@@ -1,8 +1,8 @@
 // Replace these with your real Supabase project values.
 // Keep anon key in frontend only. Never put service_role key here.
 window.SKILLCAMPUS_CONFIG = {
-  SUPABASE_URL: 'https://YOUR-PROJECT.supabase.co',
-  SUPABASE_ANON_KEY: 'YOUR-SUPABASE-ANON-KEY'
+  SUPABASE_URL: 'https://ifkpepaopnpeyctgqipt.supabase.co',
+  SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlma3BlcGFvcG5wZXljdGdxaXB0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAyNTE2NDMsImV4cCI6MjA5NTgyNzY0M30.62yTNdTxUt6iF0rTt0DhBT13OI72CHwLl3iesdn3ZHk'
 };
 
 window.scSupabase = (() => {
